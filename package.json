@@ -1,0 +1,28 @@
+{
+  "name": "react-rollup-test",
+  "version": "1.0.0",
+  "description": "Exploring how to bundle react app using rollup.js",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "rollup -c rollup.config.js -w"
+  },
+  "author": "Nathan Sebhastian",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "rollup": "^2.39.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "https://github.com/isaacl/rollup-plugin-postcss",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
