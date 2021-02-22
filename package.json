@@ -4,7 +4,7 @@
   "description": "Exploring how to bundle react app using rollup.js",
   "main": "index.js",
   "scripts": {
-    "build:dev": "rollup -c rollup.config.js -w"
+    "start": "rollup -c rollup.config.js -w"
   },
   "author": "Nathan Sebhastian",
   "license": "MIT",
